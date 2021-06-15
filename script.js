@@ -1,26 +1,26 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '?';
+    button.innerText = '﹖';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
 };
 
 function staticLoadPlaces() {
-   return [
-       {
-           name: 'Pokèmon',
-           location: {
-               lat: 50.8221691,
-               lng: 12.9398417,
-           }
-       },
-   ];
+    return [
+        {
+            name: 'Pokèmon',
+            location: {
+                    lat: 50.8221691,
+                    lng: 12.9398517,
+            },
+        },
+    ];
 }
 
 var models = [
     {
-        url: './assets/magnemite/scene1.gltf',
+        url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
