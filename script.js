@@ -34,8 +34,8 @@ var models = [
         scale: '0.05 0.05 0.05',
         rotation: '0 180 0',
           location: {
-                lat: 50.82213,
-                lng: 12.93984,
+                lat: 50.82211,
+                lng: 12.93981,
         },
         info: 'Articuno, Lv. 80, HP 100/100',
     },
