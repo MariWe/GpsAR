@@ -38,10 +38,10 @@ var models = [
         info: 'Azeria, Confused, HP 100/100',
     },
        {
-        url:'./assets/adam/adamHead.gltf',
+        url:'./assets/trex/scene.gltf',
         scale: '0.05 0.05 0.05',
         rotation: '0 180 0',
-        info: 'Adam ist complety wrong',
+        info: 'ROOOAAAR!',
     },
 ];
 
