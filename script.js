@@ -22,7 +22,6 @@ var models = [
     {
         url: './assets/magnemite/scene1.gltf',
         scale: '0.3 0.3 0.3',
-      
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
@@ -30,10 +29,6 @@ var models = [
         url: './assets/articuno/scene.gltf',
         scale: '0.05 0.05 0.05',
         rotation: '0 180 0',
-          location: {
-                lat: 50.82211,
-                lng: 12.93981,
-        },
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
