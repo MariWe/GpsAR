@@ -22,7 +22,7 @@ button {
     border-radius: 100%;
     font-size: 2em;
     background-color: rgba(0, 0, 0, 0.4);
-    color: white;
+    color: crimson;
     outline: none;
 }
 
@@ -30,6 +30,6 @@ button {
     position: fixed;
     top: 5%;
     font-size: 1.25em;
-    color: white;
+    color: crimson;
     z-index: 999999;
 }
