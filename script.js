@@ -33,6 +33,10 @@ var models = [
         url: './assets/articuno/scene.gltf',
         scale: '0.05 0.05 0.05',
         rotation: '0 180 0',
+          location: {
+                lat: 50.82213,
+                lng: 12.93984,
+        },
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
