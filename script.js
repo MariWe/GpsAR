@@ -5,6 +5,13 @@ window.onload = () => {
     let places = staticLoadPlaces();
     renderPlaces(places);
 };
+  AFRAME.registerComponent('locationfinder',{
+        init: function(){
+            navigator.geolocation.getCurrentPosition(function(location){
+                console.log(logation);
+            });
+        }
+    });
 
 function staticLoadPlaces() {
     return [
