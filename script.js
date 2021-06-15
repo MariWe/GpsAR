@@ -45,7 +45,7 @@ var models = [
     },
       {
         url:'./assets/trex/scene.gltf',
-        scale: '1 1 1',
+        scale: '0.9 0.9 0.9',
         rotation: '0 180 0',
         info: 'ROOOAAAAR!',
     },
