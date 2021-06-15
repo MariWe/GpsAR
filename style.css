@@ -17,11 +17,11 @@ button {
     justify-content: center;
     border: 2px solid white;
     background-color: transparent;
-    width: 2em;
-    height: 2em;
+    width: 5em;
+    height: 3em;
     border-radius: 100%;
     font-size: 2em;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(50, 0, 0, 0.4);
     color: crimson;
     outline: none;
 }
