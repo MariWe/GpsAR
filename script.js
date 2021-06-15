@@ -37,6 +37,12 @@ var models = [
         rotation: '0 180 0',
         info: 'Azeria, Confused, HP 100/100',
     },
+       {
+        url:'./assets/adam/adamHead.gltf',
+        scale: '0.05 0.05 0.05',
+        rotation: '0 180 0',
+        info: 'Adam ist complety wrong',
+    },
 ];
 
 var modelIndex = 0;
