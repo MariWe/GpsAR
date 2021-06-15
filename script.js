@@ -27,14 +27,13 @@ var models = [
     },
     {
         url: './assets/articuno/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.05 0.05 0.05',
         rotation: '0 180 0',
-        position: '0 0 0',
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
         url:'./assets/azeria/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.05 0.05 0.05',
         rotation: '0 180 0',
         info: 'Azeria, Confused, HP 100/100',
     },
