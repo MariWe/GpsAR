@@ -21,7 +21,7 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/magnemite/scene1.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.3 0.3 0.3',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
@@ -39,13 +39,13 @@ var models = [
     },
        {
         url:'./assets/jellyfish/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '0.3 0.3 0.3',
         rotation: '0 180 0',
         info: 'No water?!',
     },
       {
         url:'./assets/trex/scene.gltf',
-        scale: '0.9 0.9 0.9',
+        scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: 'ROOOAAAAR!',
     },
