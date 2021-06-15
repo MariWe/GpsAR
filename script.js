@@ -22,10 +22,7 @@ var models = [
     {
         url: './assets/magnemite/scene1.gltf',
         scale: '0.3 0.3 0.3',
-         location: {
-                lat: 50.82211,
-                lng: 12.93981,
-        },
+      
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
