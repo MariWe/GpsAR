@@ -43,6 +43,12 @@ var models = [
         rotation: '0 180 0',
         info: 'No water?!',
     },
+      {
+        url:'./assets/trex/scene.gltf',
+        scale: '1 1 1',
+        rotation: '0 180 0',
+        info: 'ROOOAAAAR!',
+    },
 ];
 
 var modelIndex = 0;
