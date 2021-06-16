@@ -14,7 +14,6 @@ function staticLoadPlaces() {
                     lat: 50.82208,
                     lng: 12.93978,
             },
-            position: '0 -1 0',
         },
     ];
 }
@@ -36,6 +35,7 @@ var models = [
         url:'./assets/azeria/scene.gltf',
         scale: '0.07 0.07 0.07',
         rotation: '0 180 0',
+        position: '0 -0.9 0',
         info: 'Azeria, Confused, HP 100/100',
     },
        {
