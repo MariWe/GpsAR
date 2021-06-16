@@ -14,6 +14,7 @@ function staticLoadPlaces() {
                     lat: 50.82208,
                     lng: 12.93978,
             },
+            position: '0 -1 0',
         },
     ];
 }
@@ -21,27 +22,27 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/magnemite/scene1.gltf',
-        scale: '0.3 0.3 0.3',
+        scale: '0.4 0.4 0.4',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
     {
         url: './assets/articuno/scene.gltf',
-        scale: '0.05 0.05 0.05',
+        scale: '0.07 0.07 0.07',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
         url:'./assets/azeria/scene.gltf',
-        scale: '0.05 0.05 0.05',
+        scale: '0.07 0.07 0.07',
         rotation: '0 180 0',
         info: 'Azeria, Confused, HP 100/100',
     },
        {
         url:'./assets/jellyfish/scene.gltf',
-        scale: '0.3 0.3 0.3',
+        scale: '0.8 0.8 0.8',
         rotation: '0 180 0',
-        info: 'No water?!',
+        info: '',
     },
 ];
 
