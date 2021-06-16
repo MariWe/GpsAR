@@ -35,11 +35,12 @@ var models = [
         url:'./assets/azeria/scene.gltf',
         scale: '0.07 0.07 0.07',
         rotation: '0 180 0',
+        position: '0 -10 -10',
         info: 'Azeria, Confused, HP 100/100',
     },
        {
         url:'./assets/jellyfish/scene.gltf',
-        scale: '0.8 0.8 0.8',
+        scale: '3 3 3',
         rotation: '0 180 0',
         info: '',
     },
