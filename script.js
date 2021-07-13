@@ -1,6 +1,4 @@
 window.onload = () => {
-    const button = document.querySelector('button[data-action="change"]');
-    button.innerText = 'Change';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -9,7 +7,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pokèmon',
+            name: 'Pfeil',
             location: {
                     lat: 50.82208,
                     lng: 12.93978,
@@ -20,31 +18,11 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/magnemite/scene1.gltf',
-        scale: '0.4 0.4 0.4',
-        info: 'Magnemite, Lv. 5, HP 10/10',
+        url: 'https://raw.githubusercontent.com/MariWe/ArSkulpturen/main/assets/pfeil.gltf',
+        scale: '1 1 1',
         rotation: '0 180 0',
     },
-    {
-        url: './assets/articuno/scene.gltf',
-        scale: '0.07 0.07 0.07',
-        rotation: '0 180 0',
-        info: 'Articuno, Lv. 80, HP 100/100',
-    },
-    {
-        url:'./assets/azeria/scene.gltf',
-        scale: '0.07 0.07 0.07',
-        rotation: '0 180 0',
-        position: '0 -10 -10',
-        info: 'Azeria, Confused, HP 100/100',
-    },
-       {
-        url:'./assets/jellyfish/scene.gltf',
-        scale: '3 3 3',
-        rotation: '0 180 0',
-        info: '',
-    },
-];
+ ];
 
 var modelIndex = 0;
 var setModel = function (model, entity) {
@@ -62,8 +40,6 @@ var setModel = function (model, entity) {
 
     entity.setAttribute('gltf-model', model.url);
 
-    const div = document.querySelector('.instructions');
-    div.innerText = model.info;
 };
 
 function renderPlaces(places) {
